@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-weight: 500;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  /* background-color: rgb(40, 40, 43); */
+  color: white; 
+}
+
+/* header section */
+
+header {
+  max-width: 1240px;
+  display: flex;
+  background: black;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 93%;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, #ff6600, #ffcc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.logo-txt {
+  font-size: 22px;
+}
+
+.header-cta {
+  font-weight: bold;
+  padding: 9px 20px;
+  background-image: linear-gradient(to right,#47247e ,#005073, #ff6600);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+/* hero section */
+
+.hero-txt h1 {
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+
+}
+
+.hero-txt {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: rgb(27, 27, 29);
+  border-radius: 20px;
+  width: 80%;
+  height: 400px;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgb(0,0,0, 0.1), rgb(0,0,0, 0.1)), url('/hero.jpg');
+  margin-top: 50px;
+  width: 500px;
+  border-radius: 5px;
+  margin-right: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1px;
+  margin: 50px 20px 0 20px;
+  padding: 20px;
+
+}
+.gradient-text2 {
+  margin: 0 0 5px 5px;
+  font-size: 17px;
+  font-weight: bold;
+  background-image: linear-gradient(to right, #ffcc00,#ff6600, #ff6600);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.hero-txt-stuff {
+  width: 80%;
+  margin: 35px 0 0 40px;
+}
+
+
+.hero-txt-stuff p {
+  font-size: 17px;
+  margin-bottom: 38px;
+}
+
+.header-cta2 {
+
+  font-weight: bold;
+  padding: 10px 25px;
+  background-image: linear-gradient(to right,#47247e ,#005073, #ff6600);
+  border-radius: 10px;
+  color: white;
+  font-size: 17px;
+  box-shadow: 5px 5px 5px 5px rgb(10, 10, 10);
+}
+
+/* features section */
+
+
+.features {
+  margin-top: 5em;
+}
+
+.grid-container {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Defines 4 columns of equal width */
+  column-gap: 25px; /* Optional: adds spacing between grid items */
+  
+}
+
+.grid-item {
+  background-color: rgb(27, 27, 29);
+  border-radius: 20px;
+
+}
+
+.features-header {
+  text-align: center;
+}
+
+.features-txt {
+  margin-top: 10px;
+}
+
+.features-txt h3 {
+  font-size: 30px;
+}
+
+.features-txt h3 span {
+  background-image: linear-gradient(to right, #ff6600, #ffcc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; 
+}
+
+.ftb p {
+  display: inline-block;
+  font-weight: bold;
+  padding: 2.5px 20px;
+  background-image: linear-gradient(to right,#47247e ,#005073, #ff6600);
+  border: solid 2px white;
+  border-radius: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+.features-txt p {
+  font-weight: bold;
+  font-size: 20px;
+  background-image: linear-gradient(to right,#ff6600, #ffcc00);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+} 
+
+.item-container h1 {
+  font-size: 18px;
+}
+
+.item-container {
+  padding: 1em;
+}
+
+.item-container .item-header {
+
+  display: flex;
+
+}
+
+.item-container  * {
+  font-weight: 500;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(50, 50, 53);
+}
+
+
+
+::-webkit-scrollbar-thumb {
+  border-radius: 25px;
+  
+  background-color: rgb(27, 27, 29);
+}
